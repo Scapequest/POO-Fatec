@@ -17,8 +17,8 @@ namespace ClasseConta
         public void Sacar(double ValorSacar){
             saldo -= ValorSacar;
         }
-        public void Depositar(){
-
+        public void Depositar(double valorDeposito){
+            saldo += valorDeposito;
         }
 
         public void MostrarAtributos(){

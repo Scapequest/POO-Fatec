@@ -13,6 +13,13 @@ internal class Program
 
         Conta c2 = new Conta();
         c2.MostrarAtributos();
+        c2.Depositar(500);
+        c2.MostrarAtributos();
+        System.Console.Write("Digite o número da conta: ");
+        c2.numero = Convert.ToInt32(Console.ReadLine());
+        System.Console.Write("Digite o titular da conta: ");
+        c2.titular = Console.ReadLine();
+        c2.MostrarAtributos();
 
     }
 }
