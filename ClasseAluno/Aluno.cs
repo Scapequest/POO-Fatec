@@ -7,7 +7,7 @@ namespace ClasseAluno
 {
     public class Aluno
     {
-        public int ra;
+        public long ra;
         public string nome;
         public double p1;
         public double p2;
